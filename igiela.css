@@ -2,6 +2,9 @@ body {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 300;
   margin: 0;
+  background-image: url("Aphrodite.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 nav {
@@ -16,9 +19,8 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin: 13px 30px;
+  margin: 14px 30px;
   color: white;
-  font-size: 16px;
 }
 
 nav a {
@@ -27,34 +29,20 @@ nav a {
 }
 
 nav a:hover {
-  text-decoration: none;
   color: grey;
 }
 
-h1, h2, h3 {
+#my-quote {
+  width: 50%;
   text-align: center;
 }
 
-h1 {
-  font-size: 30px;
-  font-weight: 500;
+#my-quote h1 {
+  font-weight: 400;
+  font-size: 3em;
 }
 
-h2 {
-  font-size: 60px;
+#my-quote h2 {
   font-weight: 200;
-}
-
-h3 {
-  font-size: 30px;
-  font-weight: 200;
-}
-
-a {
-  text-decoration: none;
-  color: lightblue;
-}
-
-a:hover {
-  text-decoration: underline;
+  font-size: 2em;
 }
