@@ -30,7 +30,7 @@ nav a:hover {
   color: grey;
 }
 
-h1, h2 {
+h1, h2, h3 {
   text-align: center;
 }
 
@@ -42,4 +42,18 @@ h1 {
 h2 {
   font-size: 60px;
   font-weight: 200;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 200;
+}
+
+a {
+  text-decoration: none;
+  color: lightblue;
+}
+
+a:hover {
+  text-decoration: underline;
 }
