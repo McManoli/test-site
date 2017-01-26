@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+  background-image: url("Aphrodite.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  margin: 0;
+}
+
+header {
+  background-color: aliceblue;
+  height: 500px;
+  background-position: top;
+}
+
+header h1 {
+  font-weight: lighter;
+  text-align: center;
+}
